@@ -73,7 +73,7 @@ function createOutputFile(swaggerData, log, options) {
         fs.existsSync(options.dest) || fs.mkdirSync(options.dest)
 
     //Write swagger
-    log.verbose('write swagger json file: ' + options.dest + 'swagger.json')
+    log.info('write swagger json file: ' + options.dest + 'swagger.json')
     if (!options.simulate)
         fs.writeFileSync(options.dest + './swagger.json', swaggerData)
 }
