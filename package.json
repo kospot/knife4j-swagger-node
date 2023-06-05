@@ -1,6 +1,6 @@
 {
     "name": "knife4j-swagger-node",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "swagger api knife4j docapi",
     "author": "miniwa",
     "main": "bin.js",
