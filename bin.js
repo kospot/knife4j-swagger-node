@@ -23,7 +23,6 @@ var argv = program
 
     .option('-i, --input <string[]>', 'input dir', collect, [])
     .option('-o, --output <string>', 'enable verbose', './doc/')
-    .option('-c, --config <config>', 'Path to config file or to directory containing config file (apidoc.json or apidoc.config.js).', '')
 
     .option('--definitions', 'Include definitions file rather than copying definitions.', false)
 
@@ -66,8 +65,8 @@ const options = {
     simulate: argv.simulate,
     sample: argv.sample,
 
-    apiDocJSON: path.join(process.cwd, './apidoc.json'),
-    apiConfigJs: path.join(process.cwd, './apidoc.config.js'),
+    apiDocJSON: path.join(process.cwd(), './apidoc.json'),
+    apiConfigJs: path.join(process.cwd(), './apidoc.config.js'),
 }
 
 /**
