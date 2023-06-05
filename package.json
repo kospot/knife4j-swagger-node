@@ -1,16 +1,16 @@
 {
     "name": "knife4j-swagger-node",
     "version": "1.0.2",
-    "description": "Convert api doc json to openapi 3 json",
-    "author": "tancrede GEANT",
+    "description": "swagger api knife4j docapi",
+    "author": "miniwa",
     "main": "bin.js",
     "bin": "bin.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tgeant/apidoc-swagger-3"
+        "url": "https://github.com/kospot/knife4j-swagger-node"
     },
     "bugs": {
-        "url": "https://github.com/tgeant/apidoc-swagger-3/issues"
+        "url": "https://github.com/kospot/knife4j-swagger-node/issues"
     },
     "keywords": [
         "api",
@@ -19,7 +19,8 @@
         "documentation",
         "swagger",
         "swagger-3.0",
-        "openapi"
+        "openapi",
+        "knife4j"
     ],
     "scripts": {
         "test": "jest"
