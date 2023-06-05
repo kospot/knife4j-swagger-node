@@ -1,0 +1,8 @@
+[
+  {
+    "name": "接口文档",
+    "url": "../swagger.json",
+    "swaggerVersion": "2.0",
+    "location": "/v2/api-docs"
+  }
+]

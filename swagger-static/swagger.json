@@ -1,0 +1,40 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "接口服务",
+    "description": "接口",
+    "version": "0.1.0"
+  },
+  "tags": [
+    {
+      "name": "user",
+      "description": "User related end-points"
+    }
+  ],
+  "definitions": {},
+  "paths": {},
+  "host": "127.0.0.1:7055",
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "basePath": "/",
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "securityDefinitions": {
+    "api_key": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+  "security": [
+    {
+      "api_key": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "simple",
+        "version": "1.0.0",
+        "description": "simple"
+    },
+    "basePath": "/",
+    "paths": {
+        "/user/id": {
+            "get": {
+                "tags": [
+                    "User"
+                ],
+                "summary": "GetUser",
+                "description": "Request User information",
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "Users unique ID.",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}
